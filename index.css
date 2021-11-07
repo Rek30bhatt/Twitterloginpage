@@ -1,0 +1,147 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.login_detail{
+    /* border:2px solid green; */
+    width: 500px;
+    
+}
+img{
+    width: 650px;
+    height: 590px;
+}
+.background_img{
+    position: relative;
+
+}
+.twitter_logo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.form_head{
+   
+    margin-left: 35px;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+
+height: 480px;
+}
+
+
+h1,h3{
+    margin-top: 40px;
+}
+
+.inpu-icon{
+    background: url(https://img.icons8.com/plasticine/2x/google-logo.png)no-repeat 100%;
+    background-size: 30px;
+ background-position:60px;
+ padding: 20px;
+
+ 
+
+ 
+
+
+     }
+     .inpu-icon:hover{
+         background-color:#62BBF8;
+     }
+     .inpu-icon1:hover{
+        background-color:#62BBF8;
+     }
+     .inp-icon2:hover{
+        background-color:#62BBF8;
+     }
+
+     .inpu-icon1{
+        background: url(https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-index-content-uploads-10.png)no-repeat 100%;
+        background-size: 20px;
+        background-position:70px;
+          padding: 20px;
+
+    
+         }
+     input{
+    border-radius: 30px;
+ border-color: cornflowerblue;
+ cursor: pointer;
+   
+
+
+    /* padding: 10px; 
+    width: 500px;
+    height: 100px;  */
+    
+}
+
+p{
+    font-size: 15px;
+    margin-top: 10px;
+    color: grey;
+}
+a{
+    text-decoration: none;
+
+}
+.link_colors{
+    color: #0F9AFB;
+}
+footer{
+    /* margin-top: 10px; */
+    margin-left: 30px;
+    height: 80px;
+  
+  
+}
+.footer_links{
+    margin-left: 10px;
+   font-size: 14px;
+
+
+
+ 
+}
+a{
+    color: grey;
+}
+.links{
+
+    margin-left: 550px;
+}
+.p,.links{
+    color: grey;
+}
+     
+@media screen  and (max-width:1000px)
+{
+    .parent_container{
+        display: block;
+    }
+    
+}
+@media screen  and (max-width:1200px){
+    .background_img{
+        margin-left: 40px;
+    }
+}
+@media screen  and (max-width:1000px )and (min-width:600px){
+    .background_img{
+     text-align: center;
+    }
+}
