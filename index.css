@@ -130,10 +130,20 @@ a{
      
 @media screen  and (max-width:1000px)
 {
-    .parent_container{
-        display: block;
+    .background_img{
+        margin-top: 580px;
+        
+    }
+    .login_detail{
+        margin-left: -600px;
     }
     
+}
+@media screen  and (max-width:768px) and (min-width:100px){
+    .background_img{
+    margin-top: 580px; 
+    }
+
 }
 @media screen  and (max-width:1200px){
     .background_img{
@@ -143,5 +153,19 @@ a{
 @media screen  and (max-width:1000px )and (min-width:600px){
     .background_img{
      text-align: center;
+    }
+}
+
+@media screen  and (max-width:1000px )and (min-width:600px){
+    .links{
+       /* margin-right: 200px;  not working why*/
+       margin-left: 250px;
+       /* text-align: center; not working why */
+    }
+}
+@media screen  and (max-width:768px ){
+    .links{
+        margin-left: 100px;
+        
     }
 }
